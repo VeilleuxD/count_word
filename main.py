@@ -11,8 +11,9 @@ def count_words(phrase):
     # on trouve le nombre de mots
     return apostrophe + espaces + 1
 
+
 # demande à l'utilisateur d'écrire une phrase. cette phrase sera enregistré comme un string sous la variable Count_Word
 nombre_mots = count_words(input("Écris-moi une phrase. Je vais compter ses mots!\n--> "))
 
 # le code dit a la personne le nombre de mots dans sa phrase
-print("Le nombre de mots est " + str(nombre_mots) + "!")
+print(f"Le nombre de mots est {nombre_mots}!")
